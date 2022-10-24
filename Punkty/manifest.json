@@ -1,0 +1,17 @@
+{
+  "name": "PunktyChaoZu",
+  "version": "1.0",
+  "description": "Punkty odseparowane od Twitch",
+
+  "manifest_version": 3,
+
+  "background": {
+    "service_worker" : "background.js"
+  },
+
+  "permissions": ["tabs", "scripting", "activeTab"],
+
+  "host_permissions": [
+    "https://www.twitch.tv/*"
+  ]
+}
